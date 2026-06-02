@@ -14,3 +14,15 @@ node_modules/
 
 # VS Code
 .vscode/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Database
+backend/*.db
+
+# Env
+backend/.env
+.env
