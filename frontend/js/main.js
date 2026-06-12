@@ -2,6 +2,8 @@
 // HIỂN THỊ THÔNG BÁO
 // =====================
 
+console.log("MAIN JS LOADED");
+
 function showAlert(elementId, message, type = "error") {
     const el = document.getElementById(elementId);
     if (!el) return;
