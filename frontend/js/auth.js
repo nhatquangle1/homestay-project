@@ -74,9 +74,6 @@ return null;
         console.log("Login error:", err);
         return "Lỗi kết nối server, vui lòng thử lại";
     }
-
-    // Thông báo đăng nhập thành công
-        showToast("Đăng nhập thành công! Chào mừng bạn trở lại 🎉", "success");
 }
 
 // =====================
